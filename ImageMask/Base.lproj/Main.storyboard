@@ -28,7 +28,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="FengjieMask" destination="xhD-8H-1Pl" id="xDa-MN-epN"/>
+                        <outlet property="FengjieMask" destination="xhD-8H-1Pl" id="XgP-Gw-zgM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
