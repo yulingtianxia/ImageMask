@@ -1,4 +1,4 @@
-ImageMask
+ImageMask [![Build Status](https://travis-ci.org/yulingtianxia/ImageMask.svg?branch=master)](https://travis-ci.org/yulingtianxia/ImageMask)
 =========
 
 iOS刮刮卡的实现
