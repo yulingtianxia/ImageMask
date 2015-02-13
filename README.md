@@ -3,6 +3,16 @@ ImageMask [![Build Status](https://travis-ci.org/yulingtianxia/ImageMask.svg?bra
 
 iOS刮刮卡的实现
 
-对应教程：  
+针对`ImageMaskView`代码进行了修改
+
+使用教程：  
 
 http://yulingtianxia.com/blog/2014/04/09/iosgua-gua-qia-de-shi-xian/
+
+##使用的开源库
+- ImageMaskView
+Copyright (C) 2012 http://moqod.com Andrew Kopanev <andrew@moqod.com>
+
+##LICENSE
+
+The MIT License (MIT)
