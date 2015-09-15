@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4237ED71BA84825008B2173 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4237ED61BA84825008B2173 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
 		A4342E1018F5246B00361B4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4342E0F18F5246B00361B4F /* Foundation.framework */; };
 		A4342E1218F5246B00361B4F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4342E1118F5246B00361B4F /* CoreGraphics.framework */; };
 		A4342E1418F5246B00361B4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4342E1318F5246B00361B4F /* UIKit.framework */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A4237ED61BA84825008B2173 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		A4342E0C18F5246B00361B4F /* ImageMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4342E0F18F5246B00361B4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A4342E1118F5246B00361B4F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -124,6 +126,7 @@
 				A4342E1E18F5246B00361B4F /* YXYAppDelegate.h */,
 				A4342E1F18F5246B00361B4F /* YXYAppDelegate.m */,
 				A4342E2118F5246B00361B4F /* Main.storyboard */,
+				A4237ED61BA84825008B2173 /* Launch Screen.storyboard */,
 				A4342E2418F5246B00361B4F /* YXYViewController.h */,
 				A4342E2518F5246B00361B4F /* YXYViewController.m */,
 				A4342E2718F5246B00361B4F /* Images.xcassets */,
@@ -225,7 +228,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = YXY;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "杨萧玉";
 				TargetAttributes = {
 					A4342E2C18F5246B00361B4F = {
@@ -259,6 +262,7 @@
 			files = (
 				A4342E2818F5246B00361B4F /* Images.xcassets in Resources */,
 				A4342E1A18F5246B00361B4F /* InfoPlist.strings in Resources */,
+				A4237ED71BA84825008B2173 /* Launch Screen.storyboard in Resources */,
 				A4342E2318F5246B00361B4F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +354,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -410,6 +415,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ImageMask/ImageMask-Prefix.pch";
 				INFOPLIST_FILE = "ImageMask/ImageMask-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yxy.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -423,6 +429,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ImageMask/ImageMask-Prefix.pch";
 				INFOPLIST_FILE = "ImageMask/ImageMask-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yxy.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -444,6 +451,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "ImageMaskTests/ImageMaskTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yxy.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -462,6 +470,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ImageMask/ImageMask-Prefix.pch";
 				INFOPLIST_FILE = "ImageMaskTests/ImageMaskTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yxy.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -487,6 +496,7 @@
 				A4342E4018F5246B00361B4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4342E4118F5246B00361B4F /* Build configuration list for PBXNativeTarget "ImageMaskTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +505,7 @@
 				A4342E4318F5246B00361B4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
